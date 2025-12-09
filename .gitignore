@@ -12,3 +12,23 @@ config/production.json
 .DS_Store
 Thumbs.db
 .vscode/
+
+# n8n sensitive files
+.n8n/
+credentials/
+credentials.json
+*.env
+.env.local
+
+# Workflow files with credentials (export sanitized versions only)
+*-workflow.json
+Gmail*.json
+
+# API keys and secrets
+secrets/
+config/production.json
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/
