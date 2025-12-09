@@ -1,0 +1,14 @@
+# n8n sensitive files
+.n8n/
+credentials.json
+*.env
+.env.local
+
+# API keys and secrets
+secrets/
+config/production.json
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/
